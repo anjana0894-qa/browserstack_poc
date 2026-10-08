@@ -1,0 +1,1160 @@
+2026-10-07 15:15:17 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 15:15:17 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 15:15:17 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\Users\AnjanaRajendran(TADi\AppData\Local\npm-cache\_npx\6dd56a28e8bc7645\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 15:15:17 - [32minfo[39m: SDK run started with id: 11a99859-88f3-49e7-89e5-8d0c32902d75
+2026-10-07 15:15:18 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 15:15:18 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 15:15:18 - [32minfo[39m: [CLIUtils] Current CLI Path Found: 
+2026-10-07 15:17:31 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 15:17:32 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"3379556e-b951-433c-8793-4a42e4d6a4cf","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 15:17:32 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 15:17:32 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 3379556e-b951-433c-8793-4a42e4d6a4cf and listen address: 127.0.0.1:5400
+2026-10-07 15:17:32 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 15:17:32 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 15:17:33 - [31merror[39m: [BrowserstackCLI] CLI stderr: (node:36340) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `binary-win-x64 --trace-deprecation ...` to show where the warning was created)
+2026-10-07 15:17:35 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-10-07 15:17:35 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 15:17:35 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:35 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 15:17:35 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2026-10-07 15:17:35 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 15:17:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:42 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 15:17:42 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 15:17:42 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 15:17:42 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 15:17:42 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:42 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 15:17:42 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 15:17:42 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 15:17:42 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 15:17:42 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 15:17:42 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:47 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 15:17:47 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 15:17:47 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 15:17:47 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 15:17:47 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 15:17:47 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 15:17:47 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:47 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-07 15:17:47 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=19268:0, state=AutomationFrameworkState.CREATE
+2026-10-07 15:17:47 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=763bf8b9d62d04af15e56f2819f14e8fb7d3a91d7eaff9b7b7462110351f4e33 target=19268:0
+2026-10-07 15:17:48 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 15:17:48 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 15:17:48 - [32minfo[39m: [PlaywrightDriverModule] testId: dd9b2edffe9b7501040c-1bdccb2be61cd253513d
+2026-10-07 15:17:48 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {}
+2026-10-07 15:17:48 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 15:17:48 - [31merror[39m: [PlaywrightDriverModule] markSessionStatus: page object unavailable and no hashed_id — session will remain UNMARKED
+2026-10-07 15:17:48 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 15:17:54 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 15:17:54 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 15:17:54 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 15:17:54 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 15:17:54 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 15:17:54 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:17:54 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-07 15:17:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=2124:0, state=AutomationFrameworkState.CREATE
+2026-10-07 15:17:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=0721e099251592f192e8aff9509107f73882790ceccca55136d23baa9735fa57 target=2124:0
+2026-10-07 15:17:55 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 15:17:55 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 15:17:55 - [32minfo[39m: [PlaywrightDriverModule] testId: dd9b2edffe9b7501040c-84861888425a48c528de
+2026-10-07 15:17:55 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {}
+2026-10-07 15:17:55 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 15:17:55 - [31merror[39m: [PlaywrightDriverModule] markSessionStatus: page object unavailable and no hashed_id — session will remain UNMARKED
+2026-10-07 15:17:55 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 15:18:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:18:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 15:18:00 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 15:18:00 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 15:18:00 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 15:18:00 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:18:00 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 15:18:00 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 15:18:00 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 15:18:00 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 15:18:00 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 15:18:01 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 15:18:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 3379556e-b951-433c-8793-4a42e4d6a4cf
+2026-10-07 15:18:01 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-07 15:18:01 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=29112:0, state=AutomationFrameworkState.CREATE
+2026-10-07 15:18:01 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=43847d928d9c35f8a49874c755655d04f4950e95d4da68596ba90067ac69f0a0 target=29112:0
+2026-10-07 15:18:02 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 15:18:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 15:18:02 - [32minfo[39m: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-6dd5a7a48d4f3e923d86
+2026-10-07 15:18:02 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {}
+2026-10-07 15:18:02 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 15:18:02 - [31merror[39m: [PlaywrightDriverModule] markSessionStatus: page object unavailable and no hashed_id — session will remain UNMARKED
+2026-10-07 15:18:02 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:35:00 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-10-07 16:35:00 - [33mwarn[39m: SDK-TRA-005: [ClientTroubleShootingService] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with SIGINT.
+2026-10-07 16:35:00 - [32minfo[39m: View build on BrowserStack dashboard: null
+2026-10-07 16:35:01 - [32minfo[39m: SDK run ended for id: 11a99859-88f3-49e7-89e5-8d0c32902d75, testhub id: undefined
+2026-10-07 16:35:03 - [31merror[39m: [ClientTroubleShootingService] Connectivity Issue details not found {}
+2026-10-07 16:35:03 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 16:35:56 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 16:35:56 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 16:35:56 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\Users\AnjanaRajendran(TADi\AppData\Local\npm-cache\_npx\6dd56a28e8bc7645\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 16:35:56 - [32minfo[39m: SDK run started with id: 59702125-fbfe-4b78-966c-02430902aca5
+2026-10-07 16:35:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 16:35:57 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 16:35:57 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe
+2026-10-07 16:36:08 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 16:36:10 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"cf3b12c8-2886-419c-bd5d-c4706d9557b5","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 16:36:10 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 16:36:10 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: cf3b12c8-2886-419c-bd5d-c4706d9557b5 and listen address: 127.0.0.1:5400
+2026-10-07 16:36:10 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 16:36:10 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 16:36:12 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-10-07 16:36:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 16:36:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 16:36:12 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2026-10-07 16:36:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 16:36:19 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:19 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 16:36:19 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 16:36:19 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 16:36:19 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 16:36:19 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:19 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 16:36:19 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 16:36:19 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 16:36:19 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 16:36:19 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 16:36:19 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 16:36:19 - [32minfo[39m: Setting up TestInfo directory at C:\playwright_ai\log\.obs_test_details-odiywdazefwhzffe2jusre20xl57bawu68kwcul8
+2026-10-07 16:36:19 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=32652:0, state=TestFrameworkState.INIT_TEST
+2026-10-07 16:36:19 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=c6e805686ba36cc483c926a86e7f06c01ad84682519768055d924c6c1becbfa6 target=32652:0
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 16:36:24 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 16:36:24 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:24 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:24 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-07 16:36:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=37644:0, state=AutomationFrameworkState.CREATE
+2026-10-07 16:36:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=53d2907100ed92996d545d13456d770f5db6daf2903cd8b831fc13cfa5a2b941 target=37644:0
+2026-10-07 16:36:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:30 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-10-07 16:36:30 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-10-07 16:36:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:31 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:31 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:31 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:31 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-10-07 16:36:32 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 16:36:32 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 16:36:32 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 16:36:32 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 16:36:33 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 16:36:33 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:33 - [32minfo[39m: [PlaywrightDriverModule] testId: dd9b2edffe9b7501040c-1bdccb2be61cd253513d
+2026-10-07 16:36:33 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.62.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '041cd304-3d3c-5924-ab23-bdcdc9a0de29',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.js - has title',
+  test_file_path: 'C:\\playwright_ai\\tests\\example.spec.js',
+  test_id: 'dd9b2edffe9b7501040c-1bdccb2be61cd253513d',
+  test_name: 'has title',
+  test_location: 'C:\\playwright_ai\\tests\\example.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Expect a title "to contain" a substring.\n' +
+    '  await (0, _test.expect)(page).toHaveTitle(/Playwright/);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-07T11:06:24.186Z',
+  test_scope: 'example.spec.js - has title',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack example.spec.js has title',
+  attachments: [
+    {
+      name: 'screenshot',
+      path: 'C:\\playwright_ai\\test-results\\.playwright-artifacts-0\\5ed0e088efabb085c0c8da33470b40ec.png'
+    }
+  ]
+}
+2026-10-07 16:36:33 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:33 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:33 - [32minfo[39m: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/8b56095b0cb99819e72593b19340dec0dbf05694.json status=passed name=example.spec.js - has title
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:35 - [32minfo[39m: getting screenshots results.
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:35 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:35 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-10-07 16:36:36 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 16:36:36 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 16:36:36 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 16:36:36 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 16:36:36 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 16:36:36 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:36 - [32minfo[39m: [PlaywrightDriverModule] testId: dd9b2edffe9b7501040c-84861888425a48c528de
+2026-10-07 16:36:36 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.62.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '254a9af0-7ab8-58ab-91cb-7b0c822b033b',
+  test_result: 'pending',
+  automate_session_name: 'example.spec.js - get started link',
+  test_file_path: 'C:\\playwright_ai\\tests\\example.spec.js',
+  test_id: 'dd9b2edffe9b7501040c-84861888425a48c528de',
+  test_name: 'get started link',
+  test_location: 'C:\\playwright_ai\\tests\\example.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://playwright.dev/');\n" +
+    '\n' +
+    '  // Click the get started link.\n' +
+    "  await page.getByRole('link', {\n" +
+    "    name: 'Get started'\n" +
+    '  }).click();\n' +
+    '\n' +
+    '  // Expects page to have a heading with the name of Installation.\n' +
+    "  await (0, _test.expect)(page.getByRole('heading', {\n" +
+    "    name: 'Installation'\n" +
+    '  })).toBeVisible();\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-07T11:06:35.096Z',
+  test_scope: 'example.spec.js - get started link',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack example.spec.js get started link',
+  attachments: [
+    {
+      name: 'screenshot',
+      path: 'C:\\playwright_ai\\test-results\\.playwright-artifacts-0\\12db182776740fdd73c72c9c3dcabc7d.png'
+    }
+  ]
+}
+2026-10-07 16:36:36 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:36 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:36 - [32minfo[39m: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/8b56095b0cb99819e72593b19340dec0dbf05694.json status=passed name=example.spec.js - get started link
+2026-10-07 16:36:37 - [32minfo[39m: getting screenshots results.
+2026-10-07 16:36:37 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-07 16:36:37 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-07 16:36:37 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:37 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-07 16:36:45 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-07 16:36:45 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:45 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: cf3b12c8-2886-419c-bd5d-c4706d9557b5
+2026-10-07 16:36:45 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-07 16:36:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=8316:0, state=AutomationFrameworkState.CREATE
+2026-10-07 16:36:45 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=c129f61446da565446b3d4268bfeb96b9f3254b1809bf9bce45c38af44c4420d target=8316:0
+2026-10-07 16:36:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:51 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-10-07 16:36:51 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-10-07 16:36:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:52 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:52 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:52 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:52 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-10-07 16:36:53 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 16:36:53 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 16:36:53 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 16:36:53 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 16:36:53 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 16:36:53 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-07 16:36:53 - [32minfo[39m: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-6dd5a7a48d4f3e923d86
+2026-10-07 16:36:53 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.62.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'c9e71dab-87de-559f-8db3-611af1101172',
+  test_result: 'pending',
+  automate_session_name: 'visual.spec.js - Visual validation - homepage',
+  test_file_path: 'C:\\playwright_ai\\tests\\visual.spec.js',
+  test_id: '19ca25ef9cb7f0c9b81c-6dd5a7a48d4f3e923d86',
+  test_name: 'Visual validation - homepage',
+  test_location: 'C:\\playwright_ai\\tests\\visual.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://rahulshettyacademy.com/angularpractice/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/ProtoCommerce/);\n' +
+    "  await (0, _playwright.default)(page, 'Angular Practice - Homepage');\n" +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-07T11:06:45.459Z',
+  test_scope: 'visual.spec.js - Visual validation - homepage',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack visual.spec.js Visual validation - homepage',
+  attachments: [
+    {
+      name: 'screenshot',
+      path: 'C:\\playwright_ai\\test-results\\.playwright-artifacts-1\\cc748032bd51e6e3415657d354cab708.png'
+    }
+  ]
+}
+2026-10-07 16:36:53 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-10-07 16:36:53 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-10-07 16:36:54 - [32minfo[39m: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/488cafb7298e65df6d5a02cfa7a490a18d74b77b.json status=passed name=visual.spec.js - Visual validation - homepage
+2026-10-07 16:36:55 - [32minfo[39m: getting screenshots results.
+2026-10-07 16:36:55 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-07 16:36:55 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-07 16:36:55 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-07 16:36:55 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-07 16:36:55 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-10-07 16:36:55 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-10-07 16:36:58 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-10-07 16:36:59 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/7acd849acd5eae483140b0ace8c18d55e75a571b hashed_id=7acd849acd5eae483140b0ace8c18d55e75a571b o11y_uuid=odiywdazefwhzffe2jusre20xl57bawu68kwcul8
+2026-10-07 16:36:59 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-10-07 16:36:59 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-10-07 16:37:04 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-10-07 16:37:04 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-10-07 16:37:04 - [32minfo[39m: Visit https://automation.browserstack.com/builds/odiywdazefwhzffe2jusre20xl57bawu68kwcul8 to view build report, insights, and many more debugging information all at one place!
+
+2026-10-07 16:37:04 - [31merror[39m: [BrowserstackCLI] CLI process exited with code null after ready — gRPC calls will fail
+2026-10-07 16:37:05 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7acd849acd5eae483140b0ace8c18d55e75a571b
+2026-10-07 16:37:05 - [32minfo[39m: SDK run ended for id: 59702125-fbfe-4b78-966c-02430902aca5, testhub id: odiywdazefwhzffe2jusre20xl57bawu68kwcul8
+2026-10-07 16:37:08 - [32minfo[39m: Deleting C:\playwright_ai\playwright-browserstack-sdk.config.js
+2026-10-07 16:37:09 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 17:39:24 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 17:39:24 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 17:39:24 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 17:39:24 - [32minfo[39m: SDK run started with id: 1ccef390-591e-45ba-851c-f34f26072c10
+2026-10-07 17:39:24 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 17:39:24 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 17:39:24 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe
+2026-10-07 17:39:31 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 17:39:33 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"1cfb35d4-ead4-4ee3-91d1-946b117e3bca","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 17:39:33 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 17:39:33 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 1cfb35d4-ead4-4ee3-91d1-946b117e3bca and listen address: 127.0.0.1:5400
+2026-10-07 17:39:33 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 17:39:33 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 17:40:03 - [33mwarn[39m: [GrpcClient] [BrowserStack] The BrowserStack helper did not respond in time. Usually a transient network slowdown - retry the test. (rpc=StartBinSession)
+2026-10-07 17:40:03 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 4 DEADLINE_EXCEEDED: Deadline exceeded after 30.014s,name resolution: 0.004s,LB pick: 0.007s,remote_addr=127.0.0.1:5400
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\resolving-call.js:148:78
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processTimers (node:internal/timers:615:9)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17768
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17475)
+    at BrowserstackCLI.startMain (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:5931)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4512)
+    at async C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:15380
+2026-10-07 17:40:03 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 17:40:03 - [33mwarn[39m: [BrowserstackCLI] bootstrap: killing unresponsive CLI process before Direct-flow fallback
+2026-10-07 17:40:03 - [31merror[39m: [BrowserstackCLI] CLI process exited with code null after ready — gRPC calls will fail
+2026-10-07 17:40:04 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-10-07 17:40:04 - [32minfo[39m: Testhub started with id: 5yjvas4ebmuuzorr1lu7vxffokgoftklndkdrnys
+2026-10-07 17:40:10 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1cfb35d4-ead4-4ee3-91d1-946b117e3bca
+2026-10-07 17:40:10 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 17:40:10 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 17:40:10 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 17:40:10 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.loadConfigFromFile (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1490:10)
+    at runTests (C:\playwright_ai\node_modules\playwright\lib\cli\testActions.js:46:18)
+    at _Command.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\program.js:55:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 17:40:10 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 17:40:10 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 17:40:10 - [32minfo[39m: Setting up TestInfo directory at C:\playwright_ai\log\.obs_test_details-5yjvas4ebmuuzorr1lu7vxffokgoftklndkdrnys
+2026-10-07 17:40:15 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1cfb35d4-ead4-4ee3-91d1-946b117e3bca
+2026-10-07 17:40:15 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 17:40:15 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 17:40:15 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 17:40:15 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 17:40:15 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 17:40:15 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 17:40:24 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 17:40:24 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 17:40:24 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 17:40:24 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 17:40:27 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 17:40:29 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 17:40:29 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 17:40:29 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 17:40:29 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 17:40:29 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 17:40:34 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 1cfb35d4-ead4-4ee3-91d1-946b117e3bca
+2026-10-07 17:40:34 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 17:40:34 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 17:40:34 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 17:40:34 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 17:40:34 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 17:40:35 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 17:40:43 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 17:40:43 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 17:40:43 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 17:40:43 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 17:40:45 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 17:40:47 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 17:40:47 - [32minfo[39m: Visit https://automation.browserstack.com/builds/5yjvas4ebmuuzorr1lu7vxffokgoftklndkdrnys to view build report, insights, and many more debugging information all at one place!
+
+2026-10-07 17:40:48 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/2189590c618c93daa82f4050ac03a2999896b64e
+2026-10-07 17:40:48 - [32minfo[39m: SDK run ended for id: 1ccef390-591e-45ba-851c-f34f26072c10, testhub id: 5yjvas4ebmuuzorr1lu7vxffokgoftklndkdrnys
+2026-10-07 17:40:51 - [32minfo[39m: Deleting C:\playwright_ai\playwright-browserstack-sdk.config.js
+2026-10-07 17:40:51 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 18:53:41 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 18:53:41 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 18:53:41 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 18:53:41 - [32minfo[39m: SDK run started with id: 88aa8d3f-163c-4fb5-ad71-d5fde57c0cf8
+2026-10-07 18:53:42 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 18:53:42 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 18:53:42 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe
+2026-10-07 18:55:16 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 18:55:18 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"8329a82f-209d-4b34-bbe0-c0e69a17bcfa","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 18:55:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 18:55:18 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 8329a82f-209d-4b34-bbe0-c0e69a17bcfa and listen address: 127.0.0.1:5400
+2026-10-07 18:55:18 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 18:55:18 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 18:55:48 - [33mwarn[39m: [GrpcClient] [BrowserStack] The BrowserStack helper did not respond in time. Usually a transient network slowdown - retry the test. (rpc=StartBinSession)
+2026-10-07 18:55:48 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 4 DEADLINE_EXCEEDED: Deadline exceeded after 30.002s,name resolution: 0.006s,metadata filters: 0.001s,LB pick: 0.011s,remote_addr=127.0.0.1:5400
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\resolving-call.js:148:78
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processTimers (node:internal/timers:615:9)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17768
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17475)
+    at BrowserstackCLI.startMain (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:5931)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4512)
+    at async C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:15380
+2026-10-07 18:55:48 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 18:55:48 - [33mwarn[39m: [BrowserstackCLI] bootstrap: killing unresponsive CLI process before Direct-flow fallback
+2026-10-07 18:55:48 - [31merror[39m: [BrowserstackCLI] CLI process exited with code null after ready — gRPC calls will fail
+2026-10-07 18:55:49 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-10-07 18:55:49 - [32minfo[39m: Testhub started with id: gc2viimdtbih5rhiedfu98hnraknpxz8wm6en0ix
+2026-10-07 18:55:59 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 8329a82f-209d-4b34-bbe0-c0e69a17bcfa
+2026-10-07 18:55:59 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 18:55:59 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 18:55:59 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 18:55:59 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.loadConfigFromFile (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1490:10)
+    at runTests (C:\playwright_ai\node_modules\playwright\lib\cli\testActions.js:46:18)
+    at _Command.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\program.js:55:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 18:55:59 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 18:55:59 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 18:56:00 - [32minfo[39m: Setting up TestInfo directory at C:\playwright_ai\log\.obs_test_details-gc2viimdtbih5rhiedfu98hnraknpxz8wm6en0ix
+2026-10-07 18:56:07 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 8329a82f-209d-4b34-bbe0-c0e69a17bcfa
+2026-10-07 18:56:07 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 18:56:07 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 18:56:07 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 18:56:07 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 18:56:07 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 18:56:07 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 18:56:15 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 18:56:15 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 18:56:15 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 18:56:15 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 18:56:18 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 18:56:19 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 18:56:19 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 18:56:19 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 18:56:19 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 18:56:20 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 18:56:28 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 8329a82f-209d-4b34-bbe0-c0e69a17bcfa
+2026-10-07 18:56:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 18:56:28 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 18:56:28 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 18:56:28 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 18:56:28 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 18:56:28 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 18:57:11 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 18:57:11 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 18:57:11 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 18:57:11 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 18:57:19 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 18:57:22 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 18:57:22 - [32minfo[39m: Visit https://automation.browserstack.com/builds/gc2viimdtbih5rhiedfu98hnraknpxz8wm6en0ix to view build report, insights, and many more debugging information all at one place!
+
+2026-10-07 18:57:23 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9ed23cac31f396847f095f4fbadf4683e047aaba
+2026-10-07 18:57:23 - [32minfo[39m: SDK run ended for id: 88aa8d3f-163c-4fb5-ad71-d5fde57c0cf8, testhub id: gc2viimdtbih5rhiedfu98hnraknpxz8wm6en0ix
+2026-10-07 18:57:27 - [32minfo[39m: Deleting C:\playwright_ai\playwright-browserstack-sdk.config.js
+2026-10-07 18:57:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:01:45 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 19:01:45 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 19:01:45 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 19:01:45 - [32minfo[39m: SDK run started with id: 5711f0b1-d4e7-4d77-ab84-989233ca22cd
+2026-10-07 19:01:46 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 19:01:46 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 19:01:46 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe
+2026-10-07 19:03:30 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 19:03:34 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0e57519e-77cc-453a-b42c-5d1f26bb69c9","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 19:03:34 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:03:34 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0e57519e-77cc-453a-b42c-5d1f26bb69c9 and listen address: 127.0.0.1:5400
+2026-10-07 19:03:34 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 19:03:34 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 19:04:04 - [33mwarn[39m: [GrpcClient] [BrowserStack] The BrowserStack helper did not respond in time. Usually a transient network slowdown - retry the test. (rpc=StartBinSession)
+2026-10-07 19:04:04 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 4 DEADLINE_EXCEEDED: Deadline exceeded after 30.010s,name resolution: 0.007s,metadata filters: 0.001s,LB pick: 0.011s,remote_addr=127.0.0.1:5400
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\resolving-call.js:148:78
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processTimers (node:internal/timers:615:9)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17768
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17475)
+    at BrowserstackCLI.startMain (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:5931)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4512)
+    at async C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:15380
+2026-10-07 19:04:04 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:04:04 - [33mwarn[39m: [BrowserstackCLI] bootstrap: killing unresponsive CLI process before Direct-flow fallback
+2026-10-07 19:04:04 - [31merror[39m: [BrowserstackCLI] CLI process exited with code null after ready — gRPC calls will fail
+2026-10-07 19:04:05 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-10-07 19:04:05 - [32minfo[39m: Testhub started with id: x5aywauk8r0cqkwwcuzf3qlrbppawlcg6c9hbkft
+2026-10-07 19:04:18 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0e57519e-77cc-453a-b42c-5d1f26bb69c9
+2026-10-07 19:04:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:04:18 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:04:18 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:04:18 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.loadConfigFromFile (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1490:10)
+    at runTests (C:\playwright_ai\node_modules\playwright\lib\cli\testActions.js:46:18)
+    at _Command.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\program.js:55:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:04:18 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:04:18 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:04:18 - [32minfo[39m: Setting up TestInfo directory at C:\playwright_ai\log\.obs_test_details-x5aywauk8r0cqkwwcuzf3qlrbppawlcg6c9hbkft
+2026-10-07 19:04:27 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0e57519e-77cc-453a-b42c-5d1f26bb69c9
+2026-10-07 19:04:27 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:04:27 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:04:27 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:04:27 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:04:27 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:04:28 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:04:36 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:04:36 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:04:36 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:04:36 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:04:44 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:04:47 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:04:47 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:04:47 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:04:47 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:04:49 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:05:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0e57519e-77cc-453a-b42c-5d1f26bb69c9
+2026-10-07 19:05:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:05:00 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:05:00 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:05:00 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:05:00 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:05:00 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:05:20 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:05:20 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:05:20 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:05:20 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:05:36 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:05:41 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:05:41 - [32minfo[39m: Visit https://automation.browserstack.com/builds/x5aywauk8r0cqkwwcuzf3qlrbppawlcg6c9hbkft to view build report, insights, and many more debugging information all at one place!
+
+2026-10-07 19:05:42 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0f7d1c6ab1af7aede9d30c42fca86ffd15998028
+2026-10-07 19:05:43 - [32minfo[39m: SDK run ended for id: 5711f0b1-d4e7-4d77-ab84-989233ca22cd, testhub id: x5aywauk8r0cqkwwcuzf3qlrbppawlcg6c9hbkft
+2026-10-07 19:06:09 - [32minfo[39m: Deleting C:\playwright_ai\playwright-browserstack-sdk.config.js
+2026-10-07 19:06:09 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:28:04 - [32minfo[39m: Reading configs from C:\playwright_ai\browserstack.yml
+2026-10-07 19:28:04 - [32minfo[39m: Log Directory has been set to C:\playwright_ai\log
+2026-10-07 19:28:04 - [32minfo[39m: Running SDK with args C:\node\node.exe C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-10-07 19:28:04 - [32minfo[39m: SDK run started with id: b23c2f19-b7ac-432a-8d8f-bc7d297e01a2
+2026-10-07 19:28:04 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-07 19:28:05 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-07 19:28:05 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe
+2026-10-07 19:28:47 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\AnjanaRajendran(TADi\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-10-07 19:28:51 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"50edb4a9-7d9a-449c-9160-0d57c3f97a3f","listen":"127.0.0.1:5400","port":"5400"}
+2026-10-07 19:28:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:28:51 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 50edb4a9-7d9a-449c-9160-0d57c3f97a3f and listen address: 127.0.0.1:5400
+2026-10-07 19:28:51 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-07 19:28:51 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-10-07 19:29:21 - [33mwarn[39m: [GrpcClient] [BrowserStack] The BrowserStack helper did not respond in time. Usually a transient network slowdown - retry the test. (rpc=StartBinSession)
+2026-10-07 19:29:21 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 4 DEADLINE_EXCEEDED: Deadline exceeded after 30.006s,name resolution: 0.015s,metadata filters: 0.003s,time to current attempt start: 0.001s,LB pick: 0.021s,remote_addr=127.0.0.1:5400
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\resolving-call.js:148:78
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processTimers (node:internal/timers:615:9)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17768
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:17475)
+    at BrowserstackCLI.startMain (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:5931)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4512)
+    at async C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:15380
+2026-10-07 19:29:21 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:29:21 - [33mwarn[39m: [BrowserstackCLI] bootstrap: killing unresponsive CLI process before Direct-flow fallback
+2026-10-07 19:29:21 - [31merror[39m: [BrowserstackCLI] CLI process exited with code null after ready — gRPC calls will fail
+2026-10-07 19:29:22 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-10-07 19:29:22 - [32minfo[39m: Testhub started with id: fqfkcyt3h1udqdghmtrjw0jo6yycbw7vocnrwspr
+2026-10-07 19:29:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 50edb4a9-7d9a-449c-9160-0d57c3f97a3f
+2026-10-07 19:29:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:29:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:29:37 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:29:37 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.loadConfigFromFile (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1490:10)
+    at runTests (C:\playwright_ai\node_modules\playwright\lib\cli\testActions.js:46:18)
+    at _Command.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\program.js:55:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:29:37 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:29:37 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:29:38 - [32minfo[39m: Setting up TestInfo directory at C:\playwright_ai\log\.obs_test_details-fqfkcyt3h1udqdghmtrjw0jo6yycbw7vocnrwspr
+2026-10-07 19:29:48 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 50edb4a9-7d9a-449c-9160-0d57c3f97a3f
+2026-10-07 19:29:48 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:29:48 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:29:48 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:29:48 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:29:48 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:29:48 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:29:57 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:29:57 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:29:57 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:29:57 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:30:00 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:30:01 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:30:01 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:30:01 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:30:01 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:30:03 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:30:19 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 50edb4a9-7d9a-449c-9160-0d57c3f97a3f
+2026-10-07 19:30:19 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-10-07 19:30:19 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-07 19:30:19 - [33mwarn[39m: [GrpcClient] [BrowserStack] Could not reach the BrowserStack helper process. It may have crashed or a firewall is blocking localhost gRPC. Tests will continue; BrowserStack features may be degraded. (rpc=ConnectBinSession)
+2026-10-07 19:30:19 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at C:\playwright_ai\node_modules\@grpc\grpc-js\src\resolving-call.ts:184:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\playwright_ai\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (C:\playwright_ai\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0x32b9e3 (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19430)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:19328)
+    at BrowserstackCLI.startChild (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:24115)
+    at BrowserstackCLI.bootstrap (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:4413)
+    at modifyPWConfig (C:\playwright_ai\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:36430)
+    at Object.<anonymous> (C:\playwright_ai\playwright-browserstack-sdk.config.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1956:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:2096:10)
+    at Module.load (node:internal/modules/cjs/loader:1678:32)
+    at Module._load (node:internal/modules/cjs/loader:1470:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1701:12)
+    at require (node:internal/modules/helpers:316:16)
+    at requireOrImport (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1083:18)
+    at loadUserConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1268:52)
+    at loadConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1275:28)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Object.deserializeConfig (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1265:10)
+    at WorkerMain._loadIfNeeded (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1481:20)
+    at WorkerMain.runTestGroup (C:\playwright_ai\node_modules\playwright\lib\worker\workerProcessEntry.js:1495:7)
+    at process.<anonymous> (C:\playwright_ai\node_modules\playwright\lib\common\index.js:1941:25) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-10-07 19:30:19 - [33mwarn[39m: [modifyPlaywrightConf] This build has the Playwright HTML reporter server set to open by default; the report server stays open after the run. Delays in exiting the process may lead to incomplete reporting on the BrowserStack Dashboard. Set the html reporter's open option to 'never' (or PLAYWRIGHT_HTML_OPEN=never) for the process to exit cleanly.
+2026-10-07 19:30:19 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-07 19:30:37 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-07 19:30:37 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-07 19:30:37 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-07 19:30:37 - [32minfo[39m: Accessibility testing for this test case has ended.
+2026-10-07 19:30:40 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-07 19:30:44 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-10-07 19:30:44 - [32minfo[39m: Visit https://automation.browserstack.com/builds/fqfkcyt3h1udqdghmtrjw0jo6yycbw7vocnrwspr to view build report, insights, and many more debugging information all at one place!
+
+2026-10-07 19:30:45 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/adb8785a4cfde2e5be9384b1351a56cf919ca812
+2026-10-07 19:30:45 - [32minfo[39m: SDK run ended for id: b23c2f19-b7ac-432a-8d8f-bc7d297e01a2, testhub id: fqfkcyt3h1udqdghmtrjw0jo6yycbw7vocnrwspr
+2026-10-07 19:30:48 - [32minfo[39m: Deleting C:\playwright_ai\playwright-browserstack-sdk.config.js
+2026-10-07 19:30:48 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop

@@ -1,0 +1,47 @@
+# Playwright AI Agent Rules
+
+## 1. Core Philosophy & Language
+- **Language**: Always use **JavaScript (JS)**, not TypeScript.
+- **Specifications First**: Test specifications in `docs/specs/` drive test creation.
+- **Mirror Tests & Specs**: **Whenever a test case is generated or updated, the relevant Markdown test specification document in `docs/specs/` MUST be automatically created or updated to mirror the test code.** Humans may update these, but AI is primarily responsible for keeping the test specs and the code perfectly in sync.
+- **Page Object Models (POMs)**: Encapsulate UI interactions in classes under `shared/page-objects/`. Reuse them across monitoring and functional suites.
+
+## 2. Locators & Element Selection
+- **CSS Selectors Only**: Always use CSS selectors to identify and interact with UI elements (e.g., `page.locator('.my-class > div')`).
+- **No Text Matching**: Do NOT rely on the text content of HTML (e.g., avoid `page.getByText()`, `page.getByRole()`, `hasText`), as content can change frequently. Prefer stable hooks: **`href` path segments** (e.g. `a[href*="data-centers"]`), **`id` / `data-*` attributes** from the implementation, or **XPath to structural path** if CSS is insufficient—never English copy.
+
+## 3. Interaction & Visual Debugging
+- **Assert visibility first**: Use `expect(locator).toBeVisible()` (or another web-first assertion) **before** `locator.highlight()` and any click/fill.
+- **Highlight Elements**: After the element is confirmed visible, call `locator.highlight()` so video recordings show what is being tested.
+- **Example Interaction Flow**:
+  ```javascript
+  const submitBtn = page.locator('.submit-btn');
+  await expect(submitBtn).toBeVisible();
+  await submitBtn.highlight();
+  await submitBtn.click();
+  ```
+
+## 4. Waiting & Timeouts
+- **Maximum Wait Time**: The maximum wait for any element to render is **7 seconds**. (Global timeout and action timeouts are configured to 7000ms in `playwright.config.js`).
+- **No Hard Sleeps**: Avoid `page.waitForTimeout()`. Rely on Playwright's auto-waiting web-first assertions bounded by the 7-second limit.
+
+## 5. Network Calls & API Testing
+- **Observe Network Calls**: Always pay attention to underlying API calls during UI actions (e.g., search, filter, form submission). 
+- **Wait for APIs**: Use `page.waitForResponse()` to wait for critical network requests to finish before proceeding with UI assertions.
+- **Separate API Test Suite**: If an API call is discovered during test creation, check if it is already recorded. If not, maintain a separate test case for that API in the `functional/api/` suite to validate the backend contract independently.
+
+## 6. AI Assistant Workflow
+1. **Sync Specs & Code**: If asked to write a test, write/update the Markdown spec in `docs/specs/` first (or alongside the code). If asked to update a test, update the spec document too. Plans for **Playwright Test Agents** may also live in `specs/`; see [Playwright Test Agents](https://playwright.dev/docs/test-agents). Reference smoke implementations under `monitoring/tests/` (`homepage-smoke.spec.js`, etc.) instead of removed seed tests.
+2. **Verify locally before handing off**: After `npm install`, binaries require **`npm run playwright:install`** (or `npx playwright install chromium`). Do not assert a test "works" without running it or explaining a blocker. For visual verification, use **`npm run test:monitoring:ui`** or `--headed` scripts in `package.json` / README. Use **[Command line / CLI](https://playwright.dev/docs/test-cli)** (`npx playwright test --help`, `--ui`, `--debug`, `npx playwright codegen`, `npx playwright show-trace`) as needed.
+3. **Playwright Test Agents (optional)**: `npm run playwright:agents:init` (or `npx playwright init-agents --loop=vscode -c playwright.config.js --project=monitoring`) creates `.github/agents/` and related wiring. Re-run it when upgrading `@playwright/test`. Generator output may use text locators; **reconcile with section 2** (CSS / href / i18n) before merging.
+4. **Explore the DOM**: Use browser tools (like `cursor-ide-browser` MCP) to navigate the live website, inspect the DOM, and find the correct CSS selectors *before* writing code.
+5. **Update POMs**: If an existing Page Object covers the page, update it with new CSS locators instead of putting them directly in the `.spec.js` file.
+6. **Data Isolation**: Ensure tests are independent and do not share state.
+
+## 7. Folder Architecture
+- `monitoring/tests/`: Synthetic monitoring scripts (uptime/critical paths).
+- `functional/e2e/`: Deep functional UI tests.
+- `functional/api/`: Backend API contract tests.
+- `shared/page-objects/`: Shared POM classes.
+- `shared/utils/`: Helper functions.
+- `docs/specs/`: Markdown specifications reflecting the exact current state of the tests.
