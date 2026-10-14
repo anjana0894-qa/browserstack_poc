@@ -6,13 +6,15 @@ test.describe('Rahul Shetty Angular Practice Visual Tests', () => {
     const baseUrl = process.env.BASE_URL || 'https://rahulshettyacademy.com/angularpractice/';
     await page.goto(baseUrl);
     await page.waitForLoadState('networkidle');
-    await percySnapshot(page, 'Angular Practice - Home Page');
-  });
+  await percyScreenshot(page, 'Angular Practice - Homepage', {
+        fullPage: true
+    });  });
 
   test('Shop page visual check', async ({ page }) => {
     const shopUrl = (process.env.BASE_URL || 'https://rahulshettyacademy.com/angularpractice/') + 'shop';
     await page.goto(shopUrl);
     await page.waitForLoadState('networkidle');
-    await percySnapshot(page, 'Angular Practice - Shop Page');
-  });
+  await percyScreenshot(page, 'Angular Practice - Shop Page', {
+        fullPage: true
+    });  });
 });
