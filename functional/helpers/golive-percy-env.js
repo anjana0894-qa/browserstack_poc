@@ -8,8 +8,8 @@
  * PERCY_TARGET_BRANCH = baseline branch.
  */
 
-export const PERCY_DEFAULT_BASELINE_BRANCH = 'go-live_test_baseline_christian_123';
-export const PERCY_DEFAULT_COMPARE_BRANCH = 'go-live_destination_christian';
+export const PERCY_DEFAULT_BASELINE_BRANCH = 'baseline';
+export const PERCY_DEFAULT_COMPARE_BRANCH = 'final';
 
 export const PERCY_BASELINE_BRANCH =
   process.env.PERCY_BASELINE_BRANCH?.trim() ||
