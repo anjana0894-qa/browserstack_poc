@@ -24,9 +24,9 @@ const env = {
 
 console.log(`[angular-practice-workflow] phase=${phase} scope=${scope} target=${host}`);
 
-// Wrap execution with npx percy exec -- npx browserstack-node-sdk
+// Let Percy wrap the execution directly; BrowserStack SDK handles cloud hooks via browserstack.yml
 const runScriptPath = path.join(__dirname, 'run.js');
-const command = `npx percy exec -- npx browserstack-node-sdk node "${runScriptPath}" percy ${phase}`;
+const command = `npx percy exec -- node "${runScriptPath}" percy ${phase}`;
 
 const r = spawnSync(command, {
   cwd: root,
