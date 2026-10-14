@@ -43,8 +43,8 @@ function hasSpecFiles(dir) {
 }
 
 const PHASE_HOST = {
-  baseline: 'www.equinix.com',
-  compare: 'prod.equinix.com',
+  baseline: 'https://rahulshettyacademy.com/angularpractice/',
+  compare: 'https://rahulshettyacademy.com/angularpractice/',
 };
 
 const PERCY_FILTERS = ['baseline', 'compare', 'compare-www', 'both'];
@@ -53,14 +53,21 @@ const mode = (process.argv[2] || 'percy').trim().toLowerCase();
 const filter = (process.argv[3] || '').trim().toLowerCase();
 const forwarded = process.argv.slice(filter && PERCY_FILTERS.includes(filter) ? 4 : 3);
 
+/**
+ * @param {'baseline' | 'compare'} phase
+ * @returns {string}
+ */
 function resolveCaptureHost(phase) {
-  const raw = (process.env.VV_HOST || '').trim().toLowerCase();
-  if (raw === 'prod' || raw === 'prod.equinix.com') return PROD_ORIGIN;
-  if (raw === 'www' || raw === 'www.equinix.com' || raw === 'equinix.com') return WWW_ORIGIN;
+  const raw = (process.env.VV_HOST || '').trim();
   if (raw.startsWith('http://') || raw.startsWith('https://')) {
     return raw.replace(/\/$/, '');
   }
-  return phase === 'baseline' ? WWW_ORIGIN : PROD_ORIGIN;
+  
+  if (phase === 'baseline') {
+    return (process.env.GOLIVE_BASELINE_URL || DEFAULT_BASELINE_ORIGIN).trim().replace(/\/$/, '');
+  } else {
+    return (process.env.GOLIVE_COMPARE_URL || DEFAULT_COMPARE_ORIGIN).trim().replace(/\/$/, '');
+  }
 }
 
 function captureHostLabel(phase) {
