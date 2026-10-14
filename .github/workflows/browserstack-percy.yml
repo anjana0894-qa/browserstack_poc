@@ -30,4 +30,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run visual tests on BrowserStack + Percy
-        run: npx percy exec -- npx browserstack-node-sdk playwright test functional/visual-validations
+        run: npx percy exec -- npx browserstack-node-sdk playwright test functional/visual-validation
