@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-import percySnapshot from '@percy/playwright';
+import { percyScreenshot } from '@percy/playwright';
+
 
 test.describe('Rahul Shetty Angular Practice Visual Tests', () => {
   test('Home page visual check', async ({ page }) => {
