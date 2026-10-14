@@ -1,10 +1,8 @@
-export default {
-  INCLUDE_MOBILE: true,
-  INCLUDE_SUITES: ['angular-practice'],
-  SMOKE_INCLUDE_SUITES: ['angular-practice'],
-  RUN_PHASES: ['baseline', 'compare'],
-  TARGET_URLS: {
-    base: 'https://rahulshettyacademy.com/angularpractice/',
-    shop: 'https://rahulshettyacademy.com/angularpractice/shop',
-  },
+export const INCLUDE_MOBILE = true;
+export const INCLUDE_SUITES = ['angular-practice'];
+export const SMOKE_INCLUDE_SUITES = ['angular-practice'];
+export const RUN_PHASES = ['baseline', 'compare'];
+export const TARGET_URLS = {
+  base: 'https://rahulshettyacademy.com/angularpractice/',
+  shop: 'https://rahulshettyacademy.com/angularpractice/shop',
 };
