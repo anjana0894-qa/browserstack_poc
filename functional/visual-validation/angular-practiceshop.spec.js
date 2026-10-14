@@ -15,4 +15,4 @@ test.describe('Rahul Shetty Angular Practice Visual Tests', () => {
     await page.waitForLoadState('networkidle');
     await percySnapshot(page, 'Angular Practice - Shop Page');
   });
-});s
+});

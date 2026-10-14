@@ -1,82 +1,103 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, '.env') });
 
 /**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
+ * Browser-like context for handling WAFs or automation flags.
  */
-// import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+function monitoringBrowserLikeUse() {
+  const d = { ...devices['Desktop Chrome'] };
+  const ua =
+    process.env.COMPANY_USER_AGENT && String(process.env.COMPANY_USER_AGENT).trim()
+      ? String(process.env.COMPANY_USER_AGENT).trim()
+      : d.userAgent;
+  const m = ua.match(/Chrome\/(\d+)/);
+  const major = m ? m[1] : '120';
 
-/**
- * @see https://playwright.dev/docs/test-configuration
- */
+  /** @type {import('@playwright/test').Project['use'] & { channel?: string }} */
+  const use = {
+    ...d,
+    userAgent: ua,
+    locale: process.env.COMPANY_LOCALE || 'en-US',
+    timezoneId: process.env.COMPANY_TIMEZONE || 'America/New_York',
+    channel: process.env.PLAYWRIGHT_CHROME_CHANNEL || undefined,
+    launchOptions: {
+      args: [
+        '--disable-blink-features=AutomationControlled',
+        '--disable-dev-shm-usage',
+      ],
+    },
+    extraHTTPHeaders: {
+      'Accept-Language': process.env.COMPANY_ACCEPT_LANGUAGE || 'en-US,en;q=0.9',
+      'sec-ch-ua': `"Chromium";v="${major}", "Google Chrome";v="${major}", "Not A(Brand";v="24"`,
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Windows"',
+    },
+  };
+
+  if (!use.channel) {
+    delete use.channel;
+  }
+  return use;
+}
+
 export default defineConfig({
-  testDir: './functional',
-  /* Run tests in files in parallel */
+  timeout: 30000,
+  expect: {
+    timeout: 7000,
+  },
   fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  workers: (() => {
+    if (process.env.CI) return 1;
+    const n = Number(process.env.PW_WORKERS);
+    if (Number.isFinite(n) && n >= 1) return Math.floor(n);
+    return 3;
+  })(),
+  reporter: [['html'], ['list']],
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-        headless: true,
-        screenshot: 'only-on-failure',
-        trace: 'retain-on-failure'  },
-
-  /* Configure projects for major browsers */
+    actionTimeout: 7000,
+    headless: true,
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+  },
   projects: [
+    {
+      name: 'visual-validation',
+      testDir: './functional/visual-validation',
+      testMatch: '**/*.spec.js',
+      use: {
+        ...monitoringBrowserLikeUse(),
+        screenshot: 'on',
+        video: 'off',
+      },
+      workers: (() => {
+        if (process.env.CI) return 1;
+        const n = Number(process.env.PW_WORKERS);
+        if (Number.isFinite(n) && n >= 1) return Math.min(5, Math.floor(n));
+        return 1;
+      })(),
+    },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
   ],
-
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://localhost:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
 });
-

@@ -24,9 +24,15 @@ const env = {
 
 console.log(`[angular-practice-workflow] phase=${phase} scope=${scope} target=${host}`);
 
-const r = spawnSync('node', [path.join(__dirname, 'run.js'), 'percy', phase], {
+// Wrap execution with npx percy exec -- npx browserstack-node-sdk
+const runScriptPath = path.join(__dirname, 'run.js');
+const command = `npx percy exec -- npx browserstack-node-sdk node "${runScriptPath}" percy ${phase}`;
+
+const r = spawnSync(command, {
   cwd: root,
   stdio: 'inherit',
   env,
+  shell: true,
 });
+
 process.exit(typeof r.status === 'number' ? r.status : 1);
