@@ -14,4 +14,8 @@ browserstackLocal: false
 buildName: "BrowserStack-Percy-POC"
 projectName: "Playwright BrowserStack Percy POC"
 
-percy: true
+# percy: false — bstack mode is pure functional/cross-browser regression (no Percy).
+# Visual diffing is handled separately by `percy` mode, which calls percySnapshot() explicitly
+# (Web-type token). Leaving this flag on would also invoke BrowserStack's native
+# Percy-on-Automate capture, which requires an Automate/App-type token and conflicts
+# with the percySnapshot() calls already in the specs.

@@ -331,6 +331,13 @@ function runLocalOrBstack(runMode) {
   steps.forEach((s) => console.log(`  · ${s.label}`));
 
   if (runMode === 'bstack') {
+    const secretsCheck = spawnSync(process.execPath, [path.join(root, 'scripts', 'validate-browserstack-secrets.js')], {
+      cwd: root,
+      stdio: 'inherit',
+      env: process.env,
+    });
+    if ((secretsCheck.status ?? 1) !== 0) process.exit(secretsCheck.status ?? 1);
+
     const configFile = (process.env.BROWSERSTACK_CONFIG_FILE || 'browserstack.cloud-golive.yml').trim();
     const envPath = path.join(root, '.env');
     const nodeOpts = (process.env.NODE_OPTIONS || '').split(/\s+/).filter(Boolean);
