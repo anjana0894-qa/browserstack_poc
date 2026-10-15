@@ -29,6 +29,7 @@ jobs:
     env:
       CI: true
       PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+      PERCY_SERVER_HOST: 127.0.0.1
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
       BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
       VV_SCOPE: ${{ inputs.scope }}
@@ -49,20 +50,6 @@ jobs:
 
       - name: Install Playwright Browsers
         run: npx playwright install chromium
-
-      - name: Clean up Stale Percy Lock
-        run: |
-          node -e "
-            const fs = require('fs');
-            const path = require('path');
-            const os = require('os');
-            const lockFile = path.join(os.homedir(), '.percy', 'agent-5338.lock');
-            if (fs.existsSync(lockFile)) {
-              fs.unlinkSync(lockFile);
-              console.log('Removed stale Percy lock file.');
-            }
-          "
-        continue-on-error: true
 
       - name: Run Visual Validation Workflow
         run: node scripts/visual-validation/run-workflow.js ${{ inputs.phase }}
