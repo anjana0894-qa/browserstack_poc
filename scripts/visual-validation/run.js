@@ -173,10 +173,12 @@ function baseEnv(phase) {
 function runPlaywright(testPaths, phase, usePercy) {
   const pwArgs = ['playwright', 'test', `--project=${PROJECT}`, ...testPaths, ...forwarded];
   const env = usePercy ? envForGolivePercyPhase(phase, baseEnv(phase)) : baseEnv(phase);
-  const cmd = usePercy ? ['percy', 'exec', '--', ...pwArgs] : pwArgs;
+  
+  // Do NOT nest percy exec here since run-workflow.js already wraps the outer execution
+  const cmd = pwArgs;
 
   console.log(
-    `[visual-validation] ${usePercy ? 'percy' : 'playwright'} phase=${phase} mobile=${INCLUDE_MOBILE}` +
+    `[visual-validation] playwright phase=${phase} mobile=${INCLUDE_MOBILE}` +
       ` host=${captureHostLabel(phase)}` +
       ` paths=${testPaths.join(', ')}` +
       (usePercy ? ` PERCY_BRANCH=${env.PERCY_BRANCH}` : '') +
@@ -188,7 +190,7 @@ function runPlaywright(testPaths, phase, usePercy) {
     encoding: 'utf8',
     env,
     shell: process.platform === 'win32',
-    stdio: ['inherit', usePercy ? 'pipe' : 'inherit', 'inherit'],
+    stdio: ['inherit', 'inherit', 'inherit'],
   });
 
   const stdout = r.stdout || '';
@@ -200,11 +202,7 @@ function runPlaywright(testPaths, phase, usePercy) {
 
   const code = typeof r.status === 'number' ? r.status : 1;
   let buildId;
-  if (usePercy) {
-    const m = stdout.match(/builds\/(\d+)/g);
-    buildId = m ? m[m.length - 1].replace('builds/', '') : undefined;
-    if (buildId) console.log(`[visual-validation] Percy build id=${buildId}`);
-  }
+  // If running under an outer percy exec wrapper, build IDs are managed by the CLI.
   return { code, buildId };
 }
 
