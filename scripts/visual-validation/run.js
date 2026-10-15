@@ -346,7 +346,7 @@ function runLocalOrBstack(runMode) {
 
     const child = spawn(
       process.execPath,
-      ['-r', 'dotenv/config', runner, 'playwright', 'test', `--project=${PROJECT}`, ...paths, ...forwarded],
+      ['-r', 'dotenv/config', runner, 'playwright', 'test', ...paths, ...forwarded],
       {
         cwd: root,
         stdio: 'inherit',
