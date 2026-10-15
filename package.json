@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "playwright:install": "npx playwright install chromium",
+    "test:visual-validation:local": "node scripts/visual-validation/run.js local",
+    "test:visual-validation:bstack": "node scripts/visual-validation/run.js bstack",
+    "test:visual-validation:percy": "node scripts/visual-validation/run.js percy both",
+    "test:visual-validation:percy:baseline": "node scripts/visual-validation/run.js percy baseline",
+    "test:visual-validation:percy:compare": "node scripts/visual-validation/run.js percy compare",
+    "test:visual-validation:percy:baseline:smoke": "cross-env VV_SMOKE=1 node scripts/visual-validation/run.js percy baseline",
+    "test:visual-validation:percy:compare:smoke": "cross-env VV_SMOKE=1 node scripts/visual-validation/run.js percy compare"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +22,7 @@
     "@percy/playwright": "^1.1.2",
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.2.0",
-    "browserstack-node-sdk": "^1.72.1"
+    "browserstack-node-sdk": "^1.72.1",
+    "cross-env": "^7.0.3"
   }
 }
