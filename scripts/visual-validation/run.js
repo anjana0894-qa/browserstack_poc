@@ -171,7 +171,17 @@ function baseEnv(phase) {
 }
 
 function runPlaywright(testPaths, phase, usePercy) {
-  const pwArgs = ['playwright', 'test', `--project=${PROJECT}`, ...testPaths, ...forwarded];
+
+const scopeArgs = isSmokeRun() ? ['--grep', '@smoke'] : [];
+
+const pwArgs = [
+  'playwright',
+  'test',
+  `--project=${PROJECT}`,
+  ...testPaths,
+  ...scopeArgs,
+  ...forwarded,
+];
   const env = usePercy ? envForGolivePercyPhase(phase, baseEnv(phase)) : baseEnv(phase);
   
   // Do NOT nest percy exec here since run-workflow.js already wraps the outer execution
